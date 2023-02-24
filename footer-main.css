@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*css khoảng trên*/
+.upper-part {
+    background-color: rgb(155, 138, 155);
+    height: 50px;
+}
+
+/*footer*/
+.footer {
+    background-color: #373a3c;
+    height: 400px;
+    border-top: 3px solid red;
+}
+.footer__title {
+    position: relative;
+    text-align: center;
+    margin-top: 36px;
+}
+
+.footer__title-item {
+}
+
+.title__list {
+   padding: 8px 0;
+}
+
+.title__text {
+    font-weight: 300;
+    font-size: 28px;
+    color: #fff;
+}
+
+.footer__design {
+    height: 180px;
+    display: flex;
+    position: relative;
+}
+
+.footer__design-colum  {
+    height: 180px;
+    padding: 24px;
+}
+
+.footer__design-list {
+
+}
+
+.footer__design-item {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none;
+    padding: 6px 0;
+}
+
+.footer__design-text{
+    font-size: 16px;
+}
+
+.footer__design-item:first-child{
+    margin-left: -58px;
+}
+
+h3.footer__design-text {
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.footer__design-menu-link {
+    text-align: justify;
+    position: relative;
+}
+
+.footer__design-list-link {
+    margin-left: 30%;
+}
+
+.footer__design-item-link {
+    display: flex;
+    color: #fff;
+    list-style: none;
+    padding: 6px 0;
+}
+
+
+.footer-link__icon-web {
+    font-size: 30px;
+    padding: 8px 4px 4px;
+    cursor: pointer;
+    color: #c1c1c1;
+    text-decoration: none;
+    opacity: 1;
+}
+
+.footer-link__icon-mail {
+    font-size: 30px;
+    color: #fff;
+    padding: 8px 4px 4px;
+} 
+
+
+.footer-link__icon-fb{
+    position: relative;
+    font-size: 30px;
+    padding: 8px 4px 4px;
+    cursor: pointer;
+    color: #0e85ee;
+    text-decoration: none;
+    opacity: 1;
+}
+
+.footer-link__icon-f {
+    position: absolute;
+    margin:  14px 0 0 10px;
+    font-size: 18px;
+    text-decoration: none;
+    opacity: 1;
+    color: #fff;
+}
+
+.footer-link__icon-web:hover,
+.footer-link__icon-fb:hover,
+.footer-link__icon-f:hover{
+    opacity: 0.6;
+}
+
+.footer__design-item-text-web,
+.footer__design-item-text-mail,
+.footer__design-item-text-fb{
+    margin: 14px 0 0 10px;
+
+}
